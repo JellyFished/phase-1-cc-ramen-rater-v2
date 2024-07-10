@@ -79,7 +79,7 @@ const testFetch = vi.fn((url) => {
 
 vi.stubGlobal('fetch', testFetch);
 
-import { addSubmitListener, displayRamens, handleClick, main } from './index'
+import { tener, displayRamens, handleClick, main } from './index'
 
 //! Test Suite
 
